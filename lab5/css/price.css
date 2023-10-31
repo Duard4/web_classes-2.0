@@ -102,7 +102,7 @@
     height: 4px;
     background-color: #C4C4C4;
 }
-.bplist>li:after {
+.bplist>li::after {
     background-color: #B00000;
     content: "";
     width: 0;

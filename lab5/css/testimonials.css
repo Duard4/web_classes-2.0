@@ -1,0 +1,165 @@
+/* testimonials start*/
+.testimonials__wrapper {
+    padding-top: 105px;
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: 50% 50%;
+}
+.grid1wrap {
+    margin-left: 10%;
+}
+.test__title,
+.under__title {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+
+    width: 445px;
+}
+
+.quote {
+    margin-right: -60px;
+    margin-bottom: -130px;
+}
+
+.test__head {
+    margin-left: 65px;
+    width: 640px;
+    height: 400px;
+    margin-bottom: -100px;
+}
+
+.wrap_it {
+    display: flex;
+    flex-wrap: wrap;
+    width: 445px;
+    height: 170px;
+    margin-left: 95px;
+    margin-top: 55px;
+}
+
+.test__description,
+.under__text {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.testimonial1 {
+    width: 445px;
+    height: 340px;
+    margin-top: 105px;
+}
+
+.testimonial2 {
+    width: 350px;
+    height: 276px;
+    margin-top: 30px;
+}
+
+.testimonial3 {
+    width: 350px;
+    height: 468px;
+    margin-left: 190px;
+
+}
+
+.testimonial1,
+.testimonial2,
+.testimonial3 {
+    border-radius: 8px;
+    box-shadow: 0px 10px 20px 0px rgba(41, 41, 42, 0.07);
+
+}
+
+.test__wrapper {
+    margin-left: 32px;
+}
+
+.smallquote {
+    float: left;
+}
+
+.testtext {
+    margin-bottom: 24px;
+    max-width: 350px;
+}
+
+.testtext,
+.test__name,
+.test__smth {
+    padding-left: 32px;
+}
+
+.test_text___wrapper {
+    padding-left: 32px;
+
+}
+
+.testtext,
+.test__name {
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.testtext {
+    font-weight: 400;
+}
+
+.test__name {
+    font-weight: 700;
+}
+
+.test__smth {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.jpnl {
+    padding-bottom: 15px;
+    padding-top: 40px;
+    padding-left: 32px;
+
+}
+
+.crypto {
+    padding-left: 65px;
+    padding-top: 10px;
+
+}
+
+.leeve {
+    padding-left: 55px;
+    padding-top: 40px;
+}
+
+.test__under {
+    margin-top: 105px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.under_text__wrapper {
+    width: 445px;
+    margin-left: 140px;
+}
+
+.under_img__wrapper {
+    width: 500px;
+    height: 240px;
+    margin-right: 105px;
+
+}
+
+.under_img2,
+.under_img5 {
+    margin-left: 65px;
+    margin-right: 65px;
+}

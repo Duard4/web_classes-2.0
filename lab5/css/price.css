@@ -1,0 +1,204 @@
+/* start price */
+.pricing__wrapper {
+    margin-top: 130px;
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+}
+.price_header__wrapper {
+    max-width: 850px;
+    height: 410px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    width: 100%;
+}
+
+.price__title {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    width: 650px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.price__subtitle {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.mylist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Yearly,
+.Monthly {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-top: 70px;
+}
+
+.pseudo_button {
+    margin-top: 57px;
+    margin-left: 30px;
+    margin-right: 25px;
+    width: 90px;
+    height: 50px;
+}
+
+.but__rect {
+    position: absolute;
+    background: #B00000;
+    border-radius: 73px;
+    width: 90px;
+    height: 50px;
+}
+
+.but__ellipse {
+    position: absolute;
+    background: white;
+    margin: 10px;
+    border-radius: 9999px;
+    width: 30px;
+    height: 30px;
+}
+
+.discount {
+    margin-left: 17px;
+    margin-top: 70px;
+    width: 87px;
+    height: 24px;
+    border-radius: 8px;
+    background: #FFE87A;
+}
+
+.dis_text__wrap {
+    text-align: center;
+    padding: 7px;
+    padding-left: 8px;
+    font-size: 10px;
+    font-weight: 600;
+
+}
+
+.bplist {
+    padding-top: 70px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    width:100%;
+    justify-content: space-between;
+}
+
+
+.price__uderline {
+    margin-top: 6px;
+    width: 856px;
+    height: 4px;
+    background-color: #C4C4C4;
+}
+.bplist>li:after {
+    background-color: #B00000;
+    content: "";
+    width: 0;
+    height: 5px;
+    left: 0;
+    margin: 0 auto;
+    bottom: 0;
+    transition: width 0.35s ease 0s;
+    position: absolute;
+}
+
+.bplist>li {
+    width: 40%;
+    text-align: center;
+}
+.bplist>li:hover {
+    cursor: pointer;
+    width: 40%;
+
+}
+
+
+.starter,
+.standard,
+.suprem {
+    margin-top: 85px;
+    margin-right: 99px;
+    width: 299px;
+    height: 716px;
+    border-radius: 15px;
+    border: 1.5px solid #C4C4C4;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.suprem {
+    margin-right: 0px;
+}
+
+.s__wrapper {
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+.s__title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.s__text {
+    margin-top: 11px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    width: 237px;
+}
+
+.s__price {
+    margin-top: 28px;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.permonth {
+    margin-top: 11px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 14px;
+}
+
+.choose_plan__button {
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+    width: 235px;
+    height: 50px;
+    border-radius: 12px;
+    border: 2px solid #000;
+}
+
+.chb_text_wrapper {
+    margin: 9px;
+    margin-left: 55px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.checkmark {
+    padding-top: 15px;
+    color: #808080;
+}
+
+.img_checkmark {
+    padding-right: 24px;
+}
+
+/* price end */

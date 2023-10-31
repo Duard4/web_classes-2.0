@@ -97,9 +97,9 @@
 
 
 .price__uderline {
-    margin-top: 6px;
+    margin-top: 1px;
     width: 856px;
-    height: 4px;
+    height: 5px;
     background-color: #C4C4C4;
 }
 .bplist>li::after {
@@ -115,12 +115,14 @@
 }
 
 .bplist>li {
+    height: 115%;
     width: 40%;
+    vertical-align:top;
     text-align: center;
 }
-.bplist>li:hover {
+.bplist>li:hover::after {
     cursor: pointer;
-    width: 40%;
+    width: 100%;
 
 }
 

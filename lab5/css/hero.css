@@ -12,7 +12,9 @@
     text-decoration: none;
 
 }
-
+.crunch__wrapper {
+    max-width: 50%;
+}
 .crunch {
     width: 250px;
     align-items: flex-end;
@@ -25,7 +27,7 @@
     margin-right: 23px;
 }
 .crunch__list>li::after , .crunch__link:focus::after{
-    background-color: #B00000;
+    background-color: var(--red-color);
     content: "";
     width: 0;
     height: 1px;
@@ -50,16 +52,16 @@ li:hover::after, .crunch__link:focus::after {
 
 
 .crunch__link:hover, .crunch__link:focus {
-    color: #B00000;
+    color: var(--red-color);
 }
 
 .hero__big__letters {
     color: #2E2E2E;
-    font-size: 64px;
+    font-size: var(--biggest-font);
     font-weight: 700;
     line-height: 77.50px;
     max-width: 600px;
-    padding-top: 25px;
+    padding-top: 5%;
 }
 
 .hero__inter_letters {
@@ -69,7 +71,7 @@ li:hover::after, .crunch__link:focus::after {
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0.80px;
-    padding-top: 34px;
+    padding-top: 5%;
     max-width: 450px;
 
 }
@@ -79,10 +81,9 @@ li:hover::after, .crunch__link:focus::after {
 }
 
 .hero__button_red {
-    max-width: 135px;
-    margin-top: 60px;
+    margin-top: 4%;
     padding: 12px;
-    background: #B00000;
+    background: var(--red-color);
     border-radius: 8px;
     justify-content: center;
     align-items: center;
@@ -93,6 +94,7 @@ li:hover::after, .crunch__link:focus::after {
 .hero__button_white {
     max-width: 135px;
     margin-top: 60px;
+    margin-bottom: 10%;
     margin-left: 24px;
     padding: 12px;
     border-radius: 8px;

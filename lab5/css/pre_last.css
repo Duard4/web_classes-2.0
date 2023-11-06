@@ -1,18 +1,17 @@
 
 .pre_last {
-    margin-top: 125px;
+    margin-top: 10%;
 }
 
 .pre_last__bg {
     width: 90%;
-    height: 430px;
     border-radius: 16px;
     background: var(--secondary-soft-purple, #F7FAFE);
 }
 
 .pre_last__text {
     text-align: center;
-    font-size: 64px;
+    font-size: var(--biggest-font);
     font-weight: 600;
     line-height: 88px;
     width: 85%;
@@ -26,7 +25,7 @@
     padding-top: 40px;
     margin: 0 auto;
     border-radius: 8px;
-    background: #B00000;
+    background: var(--red-color);
     width: 175px;
     height: 25px;
     padding: 12px 16px 11px 16px;
@@ -58,4 +57,5 @@
 .triangle3 {
     margin-left: 97%;
     margin-top: -20px;
+    padding-bottom: 5%;
 }
